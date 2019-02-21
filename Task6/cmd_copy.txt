@@ -1,0 +1,414 @@
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task1)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task1)
+$ git commit -m "first task"
+[task1 dc7f056] first task
+ 9 files changed, 173 insertions(+)
+ create mode 100644 Task1/BasicTypes.java
+ create mode 100644 Task1/Calculator.java
+ create mode 100644 Task1/CommandLineParams.java
+ create mode 100644 Task1/HelloWorld.java
+ create mode 100644 Task1/InvertedCommandLineParams.java
+ create mode 100644 Task1/NameForOutput.java
+ create mode 100644 Task1/Numbers.java
+ create mode 100644 Task1/PrintRandomNumber.java
+ create mode 100644 Task1/Screenshots.docx
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task1)
+$ git push origin task1
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.57 MiB | 1.30 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'task1' on GitHub by visiting:
+remote:      https://github.com/SviatlanaYermalinskaya/ATC/pull/new/task1
+remote:
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+ * [new branch]      task1 -> task1
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task1)
+$ git log
+commit dc7f056da804ea9c2bc6e6eb5c1d1a2381961763 (HEAD -> task1, origin/task1)
+Author: Sviatlana Yermalinskaya <orimailrb@gmail.com>
+Date:   Wed Feb 20 20:25:16 2019 +0300
+
+    first task
+
+commit 821b3f05b005c0096503f5be5168d0f550e54e53 (origin/master, master)
+Author: Sviatlana Yermalinskaya <orimailrb@gmail.com>
+Date:   Wed Feb 20 19:45:19 2019 +0300
+
+    first commit
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git pull --rebase
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 1), reused 11 (delta 1), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+From https://github.com/SviatlanaYermalinskaya/ATC
+   821b3f0..d1dffa2  master     -> origin/master
+Updating 821b3f0..d1dffa2
+Fast-forward
+ Task1/BasicTypes.java                |  24 +++++++++++++
+ Task1/Calculator.java                |  34 ++++++++++++++++++
+ Task1/CommandLineParams.java         |  10 ++++++
+ Task1/HelloWorld.java                |   8 +++++
+ Task1/InvertedCommandLineParams.java |  10 ++++++
+ Task1/NameForOutput.java             |   8 +++++
+ Task1/Numbers.java                   |  66 +++++++++++++++++++++++++++++++++++
+ Task1/PrintRandomNumber.java         |  13 +++++++
+ Task1/Screenshots.docx               | Bin 0 -> 1645258 bytes
+ 9 files changed, 173 insertions(+)
+ create mode 100644 Task1/BasicTypes.java
+ create mode 100644 Task1/Calculator.java
+ create mode 100644 Task1/CommandLineParams.java
+ create mode 100644 Task1/HelloWorld.java
+ create mode 100644 Task1/InvertedCommandLineParams.java
+ create mode 100644 Task1/NameForOutput.java
+ create mode 100644 Task1/Numbers.java
+ create mode 100644 Task1/PrintRandomNumber.java
+ create mode 100644 Task1/Screenshots.docx
+Current branch master is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git checkout -b task2
+Switched to a new branch 'task2'
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task2)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task2)
+$ git commit -m "second task"
+[task2 9ea8d89] second task
+ 15 files changed, 1298 insertions(+)
+ create mode 100644 Task2/Screenshots-20190220T175847Z-001.zip
+ create mode 100644 Task2/Task2_1.java
+ create mode 100644 Task2/Task2_10.java
+ create mode 100644 Task2/Task2_11.java
+ create mode 100644 Task2/Task2_12.java
+ create mode 100644 Task2/Task2_2.java
+ create mode 100644 Task2/Task2_3.java
+ create mode 100644 Task2/Task2_4.java
+ create mode 100644 Task2/Task2_5.java
+ create mode 100644 Task2/Task2_6.java
+ create mode 100644 Task2/Task2_7.java
+ create mode 100644 Task2/Task2_8.java
+ create mode 100644 Task2/Task2_9.java
+ create mode 100644 Task2/Task2_dop1.java
+ create mode 100644 Task2/Task2_dop2.java
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task2)
+$ git push origin task2
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 3.56 MiB | 2.24 MiB/s, done.
+Total 18 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), done.
+remote:
+remote: Create a pull request for 'task2' on GitHub by visiting:
+remote:      https://github.com/SviatlanaYermalinskaya/ATC/pull/new/task2
+remote:
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+ * [new branch]      task2 -> task2
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git pull --rebase
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 18 (delta 11), reused 17 (delta 11), pack-reused 0
+Unpacking objects: 100% (18/18), done.
+From https://github.com/SviatlanaYermalinskaya/ATC
+   d1dffa2..a3e6667  master     -> origin/master
+Updating d1dffa2..a3e6667
+Fast-forward
+ Task2/Screenshots-20190220T175847Z-001.zip | Bin 0 -> 4474663 bytes
+ Task2/Task2_1.java                         |  59 ++++++++++++
+ Task2/Task2_10.java                        |  72 +++++++++++++++
+ Task2/Task2_11.java                        | 109 ++++++++++++++++++++++
+ Task2/Task2_12.java                        |  95 +++++++++++++++++++
+ Task2/Task2_2.java                         |  47 ++++++++++
+ Task2/Task2_3.java                         |  78 ++++++++++++++++
+ Task2/Task2_4.java                         | 102 +++++++++++++++++++++
+ Task2/Task2_5.java                         | 104 +++++++++++++++++++++
+ Task2/Task2_6.java                         |  96 +++++++++++++++++++
+ Task2/Task2_7.java                         |  96 +++++++++++++++++++
+ Task2/Task2_8.java                         | 109 ++++++++++++++++++++++
+ Task2/Task2_9.java                         | 109 ++++++++++++++++++++++
+ Task2/Task2_dop1.java                      | 142 +++++++++++++++++++++++++++++
+ Task2/Task2_dop2.java                      |  80 ++++++++++++++++
+ 15 files changed, 1298 insertions(+)
+ create mode 100644 Task2/Screenshots-20190220T175847Z-001.zip
+ create mode 100644 Task2/Task2_1.java
+ create mode 100644 Task2/Task2_10.java
+ create mode 100644 Task2/Task2_11.java
+ create mode 100644 Task2/Task2_12.java
+ create mode 100644 Task2/Task2_2.java
+ create mode 100644 Task2/Task2_3.java
+ create mode 100644 Task2/Task2_4.java
+ create mode 100644 Task2/Task2_5.java
+ create mode 100644 Task2/Task2_6.java
+ create mode 100644 Task2/Task2_7.java
+ create mode 100644 Task2/Task2_8.java
+ create mode 100644 Task2/Task2_9.java
+ create mode 100644 Task2/Task2_dop1.java
+ create mode 100644 Task2/Task2_dop2.java
+Current branch master is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git checkout -b task3
+Switched to a new branch 'task3'
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task3)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task3)
+$ git push origin task3
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'task3' on GitHub by visiting:
+remote:      https://github.com/SviatlanaYermalinskaya/ATC/pull/new/task3
+remote:
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+ * [new branch]      task3 -> task3
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task3)
+$ git commit -m "third task"
+[task3 8f123bc] third task
+ 6 files changed, 173 insertions(+)
+ create mode 100644 Task3/Screenshots-20190220T181831Z-001.zip
+ create mode 100644 Task3/Task3_1.java
+ create mode 100644 Task3/Task3_2.java
+ create mode 100644 Task3/Task3_3.java
+ create mode 100644 Task3/Task3_4.java
+ create mode 100644 Task3/shell.java
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task3)
+$ git push origin task3
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.09 MiB | 1.08 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+   a3e6667..8f123bc  task3 -> task3
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task3)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git pull --rebase
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 2), reused 8 (delta 2), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+From https://github.com/SviatlanaYermalinskaya/ATC
+   a3e6667..35c88c3  master     -> origin/master
+Updating a3e6667..35c88c3
+Fast-forward
+ Task3/Screenshots-20190220T181831Z-001.zip | Bin 0 -> 1397713 bytes
+ Task3/Task3_1.java                         |  24 ++++++++
+ Task3/Task3_2.java                         |  28 +++++++++
+ Task3/Task3_3.java                         |  16 ++++++
+ Task3/Task3_4.java                         |  16 ++++++
+ Task3/shell.java                           |  89 +++++++++++++++++++++++++++++
+ 6 files changed, 173 insertions(+)
+ create mode 100644 Task3/Screenshots-20190220T181831Z-001.zip
+ create mode 100644 Task3/Task3_1.java
+ create mode 100644 Task3/Task3_2.java
+ create mode 100644 Task3/Task3_3.java
+ create mode 100644 Task3/Task3_4.java
+ create mode 100644 Task3/shell.java
+Current branch master is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git checkout -b task4
+Switched to a new branch 'task4'
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task4)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task4)
+$ git commit -m "forth task"
+[task4 fa6a46a] forth task
+ 5 files changed, 196 insertions(+)
+ create mode 100644 Task4/Massive.java
+ create mode 100644 Task4/Person.java
+ create mode 100644 Task4/Screenshots-20190220T183347Z-001.zip
+ create mode 100644 Task4/Task4_1.java
+ create mode 100644 Task4/Task4_2.java
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task4)
+$ git push origin task4
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 523.27 KiB | 19.38 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'task4' on GitHub by visiting:
+remote:      https://github.com/SviatlanaYermalinskaya/ATC/pull/new/task4
+remote:
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+ * [new branch]      task4 -> task4
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task4)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git pull --rebase
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 8 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+From https://github.com/SviatlanaYermalinskaya/ATC
+   35c88c3..9af3e44  master     -> origin/master
+Updating 35c88c3..9af3e44
+Fast-forward
+ Task4/Massive.java                         |  42 ++++++++++++++++++
+ Task4/Person.java                          |  66 +++++++++++++++++++++++++++++
+ Task4/Screenshots-20190220T183347Z-001.zip | Bin 0 -> 627003 bytes
+ Task4/Task4_1.java                         |  29 +++++++++++++
+ Task4/Task4_2.java                         |  59 ++++++++++++++++++++++++++
+ 5 files changed, 196 insertions(+)
+ create mode 100644 Task4/Massive.java
+ create mode 100644 Task4/Person.java
+ create mode 100644 Task4/Screenshots-20190220T183347Z-001.zip
+ create mode 100644 Task4/Task4_1.java
+ create mode 100644 Task4/Task4_2.java
+Current branch master is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git checkout -b task5
+Switched to a new branch 'task5'
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git rebase master
+Current branch task5 is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git commit -m "fifth task"
+On branch task5
+nothing to commit, working tree clean
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git push origin task5
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'task5' on GitHub by visiting:
+remote:      https://github.com/SviatlanaYermalinskaya/ATC/pull/new/task5
+remote:
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+ * [new branch]      task5 -> task5
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git log
+commit 9af3e44889988a9a12d0521bb6921498e003e8cc (HEAD -> task5, origin/task5, origin/master, master)
+Author: SviatlanaYermalinskaya <47692360+SviatlanaYermalinskaya@users.noreply.github.com>
+Date:   Wed Feb 20 21:55:15 2019 +0300
+
+    forth task (#4)
+
+commit 35c88c3e3b17e0eb131675cc6d4275e65436532e
+Author: SviatlanaYermalinskaya <47692360+SviatlanaYermalinskaya@users.noreply.github.com>
+Date:   Wed Feb 20 21:24:02 2019 +0300
+
+    third task (#3)
+
+commit a3e66674bc422dc86700c329d6bd462bed7ee79c
+Author: SviatlanaYermalinskaya <47692360+SviatlanaYermalinskaya@users.noreply.github.com>
+Date:   Wed Feb 20 21:06:35 2019 +0300
+
+    second task (#2)
+
+commit d1dffa205195a61c37dca82aa0c98add3491c2c6
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git status
+On branch task5
+nothing to commit, working tree clean
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git add Task5
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git commit -m "fifth task"
+On branch task5
+nothing to commit, working tree clean
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git add .
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git commit -m "fifth task"
+[task5 b1d1262] fifth task
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Task5/Bonus_za_kontrolnuju.txt
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git push origin task5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 337 bytes | 337.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/SviatlanaYermalinskaya/ATC.git
+   9af3e44..b1d1262  task5 -> task5
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (task5)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
+$ git pull --rebase
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/SviatlanaYermalinskaya/ATC
+   9af3e44..f1fd270  master     -> origin/master
+Updating 9af3e44..f1fd270
+Fast-forward
+ Task5/Bonus_za_kontrolnuju.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Task5/Bonus_za_kontrolnuju.txt
+Current branch master is up to date.
+
+Asus@LAPTOP-O1540MOJ MINGW64 /d/MyWorkspace/Repository (master)
