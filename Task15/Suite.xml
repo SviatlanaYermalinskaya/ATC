@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="HomeWork.TestMassive"/>
+      <class name="HomeWork.TestMassive4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="HomeWork.TestMassive3"/>
+      <class name="HomeWork.TestMassive2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
