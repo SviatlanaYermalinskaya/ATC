@@ -1,0 +1,32 @@
+mail.ru Xpath
+
+Мой Мир: .//span[text()="Мой Мир"]
+
+Все проекты: .//i[text()="Все проекты"]
+
+Картинки: .//a[@data-name="pictures"]
+
+Иконка search: .//label[@class="search__icon"]
+
+Кнопка Найти: .//input[@id="search:submit"]
+
+Иконка Календарь: .//span[@id="cal"]
+
+Леди: .//a[@data-type="lady"]
+
+...: .//span[@name="clb818633"]
+
+Поле Имя ящика: .//input[@id="mailbox:login"]
+
+Запомнить: .//label[@class="mailbox__control mailbox__control_saveauth i-font-md i-color-black"]
+
+Облако (вместо ICQ - отсутствует): .//h3[@class="projects-item__title i-link-deco"]
+
+СПОРТ: .//a[@data-type="sport"]
+
+Клуб: .//div[@class="news-item__link i-block i-relative m-bordered m-animated-shadow m-animated-borderless"]
+
+Агент: .//div[@class="well notify i-link-no-deco i-absolute m-bordered m-animated-shadow m-animated-borderless notify_y-md notify_out"]
+
+О компании (вместо Включить ленту - отсутствует): .//a[text()="О компании"]
+
