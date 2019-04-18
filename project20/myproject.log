@@ -1,0 +1,89 @@
+﻿09:37:55,084  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:00,382  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 1
+09:38:00,386  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:01,400  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:09,187  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:09,188  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:09,892  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:14,991  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 2
+09:38:14,992  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:15,538  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:16,223  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:16,225  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:16,945  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:20,700  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 3
+09:38:20,700  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:21,419  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:22,085  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:22,086  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:22,780  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:27,522  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 4
+09:38:27,523  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:28,151  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:28,244  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:28,245  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:28,958  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:32,927  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 5
+09:38:32,931  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:33,581  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:33,666  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:33,667  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:34,326  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:38,499  INFO main LoginSteps:loginAsUserWithCredentials:70 - login test for user with id = 6
+09:38:38,499  INFO main DBConnectionsExtracting:<init>:26 - Extract connections from dbconnection.xml
+09:38:38,995  INFO main LoginSteps:seeLogoutLink:101 - Test login...
+09:38:39,078  INFO main LoginSteps:seeLogoutLink:105 - Login is completed successfully
+09:38:39,078  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:38:39,778  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:38:45,786  INFO main LoginSteps:seeLink:117 - Test login...
+09:38:51,905  INFO main LoginSteps:seeLink:121 - Login is completed successfully
+09:38:52,156  INFO main Page:moveMessageToSpam:86 - Moving to spam message: 18 мар
+Mail.ru – больше, чем почта. Познакомьтесь с проектами Mail.ru Group
+Команда Почты Mail.ru
+09:38:53,162  INFO main Page:isPopupMessageMovingOkAppears:97 - Message is successfully moved.
+09:38:59,865  INFO main Page:openSpam:119 - Open spam
+09:39:00,636  INFO main LoginSteps:moveMessageBackFromSpam:176 - Moving message back to income
+09:39:00,784  INFO main Page:hasMovedMessageFromSpam:130 - Required message is found in spam
+09:39:02,532  INFO main Page:isPopupMessageMovingOkAppears:97 - Message is successfully moved.
+09:39:08,903  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:39:09,696  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:39:14,391  INFO main LoginSteps:seeLink:117 - Test login...
+09:39:22,305  INFO main LoginSteps:seeLink:121 - Login is completed successfully
+09:39:23,567  INFO main Page:selectMessages:228 - All required messages are selected
+09:39:23,569  INFO main LoginSteps:uncheckAllMessage:205 - Unselect all messages
+09:39:23,685  INFO main Page:isAllMessagesUnselected:191 - All messages are unselected
+09:39:23,686  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:39:24,389  INFO main MessagesExtracting:<init>:26 - Extract messages from messages.xml
+09:39:24,408  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:39:29,340  INFO main LoginSteps:seeLink:117 - Test login...
+09:39:37,109  INFO main LoginSteps:seeLink:121 - Login is completed successfully
+09:39:37,109  INFO main LoginSteps:sendMessage:226 - Send message:  to=esalana@tut.by subject=Test 1 msgbody=It's a test message!
+09:39:40,524  INFO main LoginSteps:sendMessage:228 - Message is sent
+09:39:41,944  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:39:42,680  INFO main MessagesExtracting:<init>:26 - Extract messages from messages.xml
+09:39:42,684  INFO main LoginSteps:loadMainPage:61 - test is started...
+09:39:47,376  INFO main LoginSteps:seeLink:117 - Test login...
+09:39:54,597  INFO main LoginSteps:seeLink:121 - Login is completed successfully
+09:39:54,598  INFO main LoginSteps:sendMessage:226 - Send message:  to=orimailrb@gmail.com, esalana@tut.by, lanalex@tut.by subject=Test 2 msgbody=Hello!
+09:39:58,083  INFO main LoginSteps:sendMessage:228 - Message is sent
+09:39:59,120  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
+09:39:59,835  INFO main LoginSteps:postsExtracting:250 - test is started...
+09:39:59,837  INFO main PostsExtracting:<init>:26 - Extract posts from posts.xml
+09:40:00,429  INFO main LoginSteps:sendWallPost:268 - Message is posted
+09:40:00,494  INFO main LoginSteps:checkPostedMessage:288 - Assert result: message is posted correctly!
+09:40:00,576  INFO main LoginSteps:editWallPost:308 - Message is changed
+09:40:00,638  INFO main LoginSteps:checkPostedMessage:288 - Assert result: message is posted correctly!
+09:40:00,703  INFO main LoginSteps:removeWallPost:332 - Message is removed
+09:40:00,757  INFO main LoginSteps:checkPostDeletion:352 - Assert result: message is deleted!
+09:40:00,757  INFO main LoginSteps:afterClass:364 - Test is completed!
+ ---------------------------------------------------------------------
