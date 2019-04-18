@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1555586601893" stop="1555586647563" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test mail.ru login</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1555586601913" stop="1555586618571" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586601923" stop="1555586609530" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586609531" stop="1555586610917" status="passed">
+                    <name>When I login as user with "1"</name>
+                    <title>When I login as user with "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586610918" stop="1555586617886" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1555586618639" stop="1555586624185" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586618639" stop="1555586622159" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586622159" stop="1555586622917" status="passed">
+                    <name>When I login as user with "2"</name>
+                    <title>When I login as user with "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586622917" stop="1555586623528" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1555586624191" stop="1555586631246" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586624191" stop="1555586629527" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586629527" stop="1555586629977" status="passed">
+                    <name>When I login as user with "3"</name>
+                    <title>When I login as user with "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586629977" stop="1555586630588" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1555586631246" stop="1555586636583" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586631246" stop="1555586635403" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586635403" stop="1555586635790" status="passed">
+                    <name>When I login as user with "4"</name>
+                    <title>When I login as user with "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586635790" stop="1555586635897" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1555586636583" stop="1555586641469" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586636583" stop="1555586640143" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586640144" stop="1555586640731" status="passed">
+                    <name>When I login as user with "5"</name>
+                    <title>When I login as user with "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586640731" stop="1555586640800" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1555586641469" stop="1555586647557" status="passed">
+            <name>Test login page</name>
+            <title>Test login page</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1555586641469" stop="1555586646267" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586646267" stop="1555586646799" status="passed">
+                    <name>When I login as user with "6"</name>
+                    <title>When I login as user with "6"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1555586646799" stop="1555586646898" status="passed">
+                    <name>Then I see expected element</name>
+                    <title>Then I see expected element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login page"/>
+                <label name="feature" value="Test mail.ru login"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19860@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test mail.ru login"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

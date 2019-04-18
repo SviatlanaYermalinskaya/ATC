@@ -1,0 +1,161 @@
+{
+  "uid" : "93e2265fc2efffb1",
+  "name" : "Add, edit and delete post",
+  "title" : "Add, edit and delete post",
+  "time" : {
+    "start" : 1555586723045,
+    "stop" : 1555586723862,
+    "duration" : 817
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2ca91b6746d81dd6",
+    "name" : "Test VK API",
+    "title" : "Test VK API"
+  },
+  "steps" : [ {
+    "name" : "Given I get posts from \"posts.xml\"",
+    "title" : "Given I get posts from \"posts.xml\"",
+    "time" : {
+      "start" : 1555586723045,
+      "stop" : 1555586723060,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I send post",
+    "title" : "When I send post",
+    "time" : {
+      "start" : 1555586723060,
+      "stop" : 1555586723503,
+      "duration" : 443
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I check posted message",
+    "title" : "Then I check posted message",
+    "time" : {
+      "start" : 1555586723503,
+      "stop" : 1555586723577,
+      "duration" : 74
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I edit post",
+    "title" : "When I edit post",
+    "time" : {
+      "start" : 1555586723577,
+      "stop" : 1555586723693,
+      "duration" : 116
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I check posted message",
+    "title" : "Then I check posted message",
+    "time" : {
+      "start" : 1555586723693,
+      "stop" : 1555586723747,
+      "duration" : 54
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I delete message",
+    "title" : "When I delete message",
+    "time" : {
+      "start" : 1555586723747,
+      "stop" : 1555586723809,
+      "duration" : 62
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I check post deletion",
+    "title" : "Then I check post deletion",
+    "time" : {
+      "start" : 1555586723809,
+      "stop" : 1555586723862,
+      "duration" : 53
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Add, edit and delete post"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test VK API"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O1540MOJ"
+  }, {
+    "name" : "feature",
+    "value" : "Test VK API"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "19860@LAPTOP-O1540MOJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
